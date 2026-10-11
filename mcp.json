@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "docspeed": {
+      "type": "streamable-http",
+      "url": "https://api.docspeed.ai/mcp/",
+      "extensions": {"com.openai": {"auth": {"type": "api_key", "headerScheme": "bearer"}}}
+    }
+  }
+}

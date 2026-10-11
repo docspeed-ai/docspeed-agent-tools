@@ -1,0 +1,7 @@
+{
+  "name": "docspeed",
+  "version": "0.1.0",
+  "description": "Grounded PDF and image extraction, document questions, comparisons, and reusable Docster workflows.",
+  "author": {"name": "Docspeed", "url": "https://docspeed.ai"},
+  "homepage": "https://api.docspeed.ai/agent-tools/"
+}

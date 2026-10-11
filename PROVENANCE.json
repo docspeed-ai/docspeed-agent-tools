@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "artifact_name": "docspeed-agent-tools",
+  "artifact_version": "0.1.0",
+  "source": "existing published customer download",
+  "source_archive": {
+    "url": "https://api.docspeed.ai/agent-tools/docspeed-agent-tools.zip",
+    "sha256": "5e5ffa74d8f4e8991758192704c0228b585ec1826096726350e9e307e4e6a364"
+  },
+  "source_guide": {
+    "url": "https://api.docspeed.ai/agent-tools/",
+    "sha256": "fa5263e9cc73d39ff07e1edf88e31abd8fdd784c2d07046f30cde54bcf3004bc"
+  },
+  "source_catalog": {
+    "url": "https://api.docspeed.ai/agent-tools/marketplace.json",
+    "sha256": "012958b2be32ff72c59649970349983556470726f37e899eafb0713f48597513"
+  },
+  "retrieved_on_utc": "2026-10-11",
+  "copied_files": {
+    "requirements.txt": {
+      "source_member": "docspeed-agent-tools/requirements.txt",
+      "sha256": "397a4d8beb3a1adb611bafbc29d1b2e240371331e6e4e974397b635ac50ac586",
+      "bytes": 41,
+      "transformation": "none"
+    },
+    "plugin.json": {
+      "source_member": "docspeed-agent-tools/plugin.json",
+      "sha256": "119b0b4750f72716c110d2de65d6d450987efe17d8cfc786ed895cb607d74301",
+      "bytes": 439,
+      "transformation": "none"
+    },
+    "mcp.json": {
+      "source_member": "docspeed-agent-tools/mcp.json",
+      "sha256": "ad6921ae68da8959f92e34ea6b3f15f1ddf9bb3bd3a94034b636aeaf7e07a599",
+      "bytes": 292,
+      "transformation": "none"
+    },
+    ".mcp.json": {
+      "source_member": "docspeed-agent-tools/.mcp.json",
+      "sha256": "54c1aa65d620a26bc056df8c20379a44661f71ae938525fc6b924d4875a87eed",
+      "bytes": 208,
+      "transformation": "none"
+    },
+    ".claude-plugin/plugin.json": {
+      "source_member": "docspeed-agent-tools/.claude-plugin/plugin.json",
+      "sha256": "75fea394bfcb78263f4e6e4af3c46bc84bb3b79e3739dfaaefa3d528594e6a9e",
+      "bytes": 285,
+      "transformation": "none"
+    },
+    "config/codex.toml": {
+      "source_member": "docspeed-agent-tools/config/codex.toml",
+      "sha256": "efbeadcf63576110e84d6f31233b5dce3fd3197040cd21b1a054df0fdf5bc9ad",
+      "bytes": 151,
+      "transformation": "none"
+    },
+    "config/codex-direct-mcp.toml": {
+      "source_member": "docspeed-agent-tools/config/codex-direct-mcp.toml",
+      "sha256": "869f5442cc5f2c6bd7930012d831d6dddf853ce8f1d6ea01aea8b7161127af31",
+      "bytes": 320,
+      "transformation": "none"
+    },
+    "skills/docspeed-documents/SKILL.md": {
+      "source_member": "docspeed-agent-tools/skills/docspeed-documents/SKILL.md",
+      "sha256": "7e13aa31b67e26dab8c1cbcd077213f759ac17ef347686afd5954ef1055ed155",
+      "bytes": 6052,
+      "transformation": "none"
+    },
+    "skills/docspeed-documents/agents/openai.yaml": {
+      "source_member": "docspeed-agent-tools/skills/docspeed-documents/agents/openai.yaml",
+      "sha256": "5d6f0d74a576009d663cd4de259aa87401a93a341747bad74c7cfddb23bad35a",
+      "bytes": 266,
+      "transformation": "none"
+    },
+    "scripts/setup.py": {
+      "source_member": "docspeed-agent-tools/scripts/setup.py",
+      "sha256": "703f0bd505781bc79ad1ca638e0b54e1a7723ee7b9d995a0cb6da8f462b279bd",
+      "bytes": 15212,
+      "transformation": "none"
+    },
+    "scripts/eval_selection.py": {
+      "source_member": "docspeed-agent-tools/scripts/eval_selection.py",
+      "sha256": "d1de2a7764ab8a7b436c8d973f1a1be0bc23cdbf877a80b6aff38cad25f95e7c",
+      "bytes": 8245,
+      "transformation": "none"
+    },
+    "evals/selection-cases.jsonl": {
+      "source_member": "docspeed-agent-tools/evals/selection-cases.jsonl",
+      "sha256": "45b1d5c1e2f4006138fdaf86410209864006432ae8f1153fd9424eb4f6ed2abb",
+      "bytes": 6206,
+      "transformation": "none"
+    },
+    "evals/REPORT_TEMPLATE.md": {
+      "source_member": "docspeed-agent-tools/evals/REPORT_TEMPLATE.md",
+      "sha256": "65481a52c3fd7425496670b91fff04848e758d9d1291bdc9108d3ed9f57b9a28",
+      "bytes": 1511,
+      "transformation": "none"
+    }
+  },
+  "authored_for_standalone_repository": [
+    "README.md",
+    "LICENSE_STATUS.md",
+    ".gitignore",
+    "PROVENANCE.json",
+    "MANIFEST.json"
+  ],
+  "omitted_from_public_payload": [
+    "Shipped README with monorepo-only maintainer commands; its original bytes remain in the private preparation evidence"
+  ],
+  "license_status": "No declared distribution license found; no license grant invented",
+  "claims": "Shipped-byte provenance, not a claim that every current hosted operation has been freshly validated.",
+  "reviewed_editorial_files": {
+    "docs/document-answer-completeness.md": {
+      "source": "Docspeed reviewed historical-evaluation article",
+      "sha256": "7b1457a2cbc68cd7d8f3ddc6eae1a3c75f44000552f38bca43633a9151709d4c",
+      "bytes": 4187,
+      "transformation": "none",
+      "evidence_urls": [
+        "https://api.docspeed.ai/agent-tools/examples/two-contracts/",
+        "https://api.docspeed.ai/agent-tools/examples/source-review/",
+        "https://api.docspeed.ai/agent-tools/examples/cited-qa/"
+      ],
+      "claim_boundary": "Historical internal synthetic examples only; no fresh product execution or customer outcome."
+    }
+  }
+}

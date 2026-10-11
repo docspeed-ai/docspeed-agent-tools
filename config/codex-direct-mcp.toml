@@ -1,0 +1,6 @@
+# Optional Codex Code Mode configuration. Keep the regular MCP server table too.
+# Merge into your existing features.code_mode table; preserve other namespaces.
+# Do not duplicate this table or override an intentional disabled setting.
+[features.code_mode]
+enabled = true
+direct_only_tool_namespaces = ["mcp__docspeed"]

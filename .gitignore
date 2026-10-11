@@ -1,0 +1,11 @@
+# Credentials and local evaluation outputs
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+.DS_Store
+# Keep uploaded documents and run results outside this distribution repository.

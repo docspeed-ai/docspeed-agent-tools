@@ -1,0 +1,6 @@
+interface:
+  display_name: "Docspeed documents"
+  short_description: "Grounded document extraction and Docster workflows"
+  default_prompt: "Use $docspeed-documents to extract these invoice line items with source evidence."
+policy:
+  allow_implicit_invocation: true

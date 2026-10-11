@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "docspeed": {
+      "type": "http",
+      "url": "https://api.docspeed.ai/mcp/",
+      "headers": {"Authorization": "Bearer ${DOCSPEED_API_KEY}"},
+      "timeout": 1200000
+    }
+  }
+}

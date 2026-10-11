@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "artifact": "docspeed-agent-tools-public-repository",
+  "manifest_excludes_itself": true,
+  "files": {
+    ".claude-plugin/plugin.json": {
+      "sha256": "75fea394bfcb78263f4e6e4af3c46bc84bb3b79e3739dfaaefa3d528594e6a9e",
+      "bytes": 285
+    },
+    ".gitignore": {
+      "sha256": "cb5ff779baec009ea83ed7f33df5273dabfe3efa902deb2d911184d9c7bb8a1c",
+      "bytes": 195
+    },
+    ".mcp.json": {
+      "sha256": "54c1aa65d620a26bc056df8c20379a44661f71ae938525fc6b924d4875a87eed",
+      "bytes": 208
+    },
+    "LICENSE_STATUS.md": {
+      "sha256": "dc2642632f3ba72cb8f8465c7a6c7d328dcf7ff3bc04b9f62fadec533518ea38",
+      "bytes": 727
+    },
+    "PROVENANCE.json": {
+      "sha256": "aa669f5bb51fa05c7a019f8d90b6c5e20b885435eeb7d72985e148f377f9ac90",
+      "bytes": 5073
+    },
+    "README.md": {
+      "sha256": "f8e24522f0aa98fc49663ad0b6fdd99e640c3c9bf5efc03bd112af27d74efad8",
+      "bytes": 7727
+    },
+    "config/codex-direct-mcp.toml": {
+      "sha256": "869f5442cc5f2c6bd7930012d831d6dddf853ce8f1d6ea01aea8b7161127af31",
+      "bytes": 320
+    },
+    "config/codex.toml": {
+      "sha256": "efbeadcf63576110e84d6f31233b5dce3fd3197040cd21b1a054df0fdf5bc9ad",
+      "bytes": 151
+    },
+    "docs/document-answer-completeness.md": {
+      "sha256": "7b1457a2cbc68cd7d8f3ddc6eae1a3c75f44000552f38bca43633a9151709d4c",
+      "bytes": 4187
+    },
+    "evals/REPORT_TEMPLATE.md": {
+      "sha256": "65481a52c3fd7425496670b91fff04848e758d9d1291bdc9108d3ed9f57b9a28",
+      "bytes": 1511
+    },
+    "evals/selection-cases.jsonl": {
+      "sha256": "45b1d5c1e2f4006138fdaf86410209864006432ae8f1153fd9424eb4f6ed2abb",
+      "bytes": 6206
+    },
+    "mcp.json": {
+      "sha256": "ad6921ae68da8959f92e34ea6b3f15f1ddf9bb3bd3a94034b636aeaf7e07a599",
+      "bytes": 292
+    },
+    "plugin.json": {
+      "sha256": "119b0b4750f72716c110d2de65d6d450987efe17d8cfc786ed895cb607d74301",
+      "bytes": 439
+    },
+    "requirements.txt": {
+      "sha256": "397a4d8beb3a1adb611bafbc29d1b2e240371331e6e4e974397b635ac50ac586",
+      "bytes": 41
+    },
+    "scripts/eval_selection.py": {
+      "sha256": "d1de2a7764ab8a7b436c8d973f1a1be0bc23cdbf877a80b6aff38cad25f95e7c",
+      "bytes": 8245
+    },
+    "scripts/setup.py": {
+      "sha256": "703f0bd505781bc79ad1ca638e0b54e1a7723ee7b9d995a0cb6da8f462b279bd",
+      "bytes": 15212
+    },
+    "skills/docspeed-documents/SKILL.md": {
+      "sha256": "7e13aa31b67e26dab8c1cbcd077213f759ac17ef347686afd5954ef1055ed155",
+      "bytes": 6052
+    },
+    "skills/docspeed-documents/agents/openai.yaml": {
+      "sha256": "5d6f0d74a576009d663cd4de259aa87401a93a341747bad74c7cfddb23bad35a",
+      "bytes": 266
+    }
+  }
+}
