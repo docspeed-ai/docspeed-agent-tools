@@ -5,17 +5,19 @@
   "source": "existing published customer download",
   "source_archive": {
     "url": "https://api.docspeed.ai/agent-tools/docspeed-agent-tools.zip",
-    "sha256": "5e5ffa74d8f4e8991758192704c0228b585ec1826096726350e9e307e4e6a364"
+    "sha256": "f407635260248ee5f0029ae30f5f2b11b68e733995a9b9a842798779624e4ef5"
   },
   "source_guide": {
     "url": "https://api.docspeed.ai/agent-tools/",
-    "sha256": "fa5263e9cc73d39ff07e1edf88e31abd8fdd784c2d07046f30cde54bcf3004bc"
+    "sha256": "bd1712b2feaeaa375374a32e427337daeda9abc8004b96c495e2305ec1ad47b4"
   },
   "source_catalog": {
     "url": "https://api.docspeed.ai/agent-tools/marketplace.json",
-    "sha256": "012958b2be32ff72c59649970349983556470726f37e899eafb0713f48597513"
+    "sha256": "012958b2be32ff72c59649970349983556470726f37e899eafb0713f48597513",
+    "archive_checksum_matches": false,
+    "status": "stale_archive_checksum_observed_do_not_claim_catalog_installation_ready"
   },
-  "retrieved_on_utc": "2026-10-11",
+  "retrieved_on_utc": "2026-10-12",
   "copied_files": {
     "requirements.txt": {
       "source_member": "docspeed-agent-tools/requirements.txt",
@@ -61,14 +63,20 @@
     },
     "skills/docspeed-documents/SKILL.md": {
       "source_member": "docspeed-agent-tools/skills/docspeed-documents/SKILL.md",
-      "sha256": "7e13aa31b67e26dab8c1cbcd077213f759ac17ef347686afd5954ef1055ed155",
-      "bytes": 6052,
+      "sha256": "45511125891d971bec3181be827a55871fedb28d19e56f78a80512fd3c8194f4",
+      "bytes": 8778,
       "transformation": "none"
     },
     "skills/docspeed-documents/agents/openai.yaml": {
       "source_member": "docspeed-agent-tools/skills/docspeed-documents/agents/openai.yaml",
       "sha256": "5d6f0d74a576009d663cd4de259aa87401a93a341747bad74c7cfddb23bad35a",
       "bytes": 266,
+      "transformation": "none"
+    },
+    "skills/docspeed-documents/scripts/upload.py": {
+      "source_member": "docspeed-agent-tools/skills/docspeed-documents/scripts/upload.py",
+      "sha256": "98ecef7e862e8d27a45e019b5c4ad158d40fac72ff25d9066f5a162556de93c7",
+      "bytes": 6215,
       "transformation": "none"
     },
     "scripts/setup.py": {
@@ -121,5 +129,22 @@
       ],
       "claim_boundary": "Historical internal synthetic examples only; no fresh product execution or customer outcome."
     }
-  }
+  },
+  "previous_public_repository": {
+    "url": "https://github.com/docspeed-ai/docspeed-agent-tools",
+    "commit": "2c664094d129ed9e83bd3a6308077427edd36548",
+    "source_archive_sha256": "5e5ffa74d8f4e8991758192704c0228b585ec1826096726350e9e307e4e6a364",
+    "source_guide_sha256": "fa5263e9cc73d39ff07e1edf88e31abd8fdd784c2d07046f30cde54bcf3004bc",
+    "note": "Previous public revision retained in GitHub history; reviewed article and license-status text preserved unchanged."
+  },
+  "direct_skill_assets": {
+    "base_url": "https://api.docspeed.ai/agent-tools/skills/docspeed-documents/",
+    "files": {
+      "SKILL.md": "45511125891d971bec3181be827a55871fedb28d19e56f78a80512fd3c8194f4",
+      "agents/openai.yaml": "5d6f0d74a576009d663cd4de259aa87401a93a341747bad74c7cfddb23bad35a",
+      "scripts/upload.py": "98ecef7e862e8d27a45e019b5c4ad158d40fac72ff25d9066f5a162556de93c7"
+    },
+    "all_exactly_match_zip": true
+  },
+  "readme_transformation": "Standalone README updated from already-public direct-setup and direct-upload instructions; current catalog checksum mismatch disclosed. No copied application source or new capability claim."
 }

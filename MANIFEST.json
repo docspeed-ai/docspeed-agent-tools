@@ -20,12 +20,12 @@
       "bytes": 727
     },
     "PROVENANCE.json": {
-      "sha256": "aa669f5bb51fa05c7a019f8d90b6c5e20b885435eeb7d72985e148f377f9ac90",
-      "bytes": 5073
+      "sha256": "83a26509569110e142d3467b1b348e9ae373790b34a155be98d3435c6d55cc44",
+      "bytes": 6638
     },
     "README.md": {
-      "sha256": "f8e24522f0aa98fc49663ad0b6fdd99e640c3c9bf5efc03bd112af27d74efad8",
-      "bytes": 7727
+      "sha256": "5ca41638618d5cd07ee9b0c43ec4388fdeb7599ce6c610250c5ca0e7360bc1df",
+      "bytes": 11907
     },
     "config/codex-direct-mcp.toml": {
       "sha256": "869f5442cc5f2c6bd7930012d831d6dddf853ce8f1d6ea01aea8b7161127af31",
@@ -68,12 +68,16 @@
       "bytes": 15212
     },
     "skills/docspeed-documents/SKILL.md": {
-      "sha256": "7e13aa31b67e26dab8c1cbcd077213f759ac17ef347686afd5954ef1055ed155",
-      "bytes": 6052
+      "sha256": "45511125891d971bec3181be827a55871fedb28d19e56f78a80512fd3c8194f4",
+      "bytes": 8778
     },
     "skills/docspeed-documents/agents/openai.yaml": {
       "sha256": "5d6f0d74a576009d663cd4de259aa87401a93a341747bad74c7cfddb23bad35a",
       "bytes": 266
+    },
+    "skills/docspeed-documents/scripts/upload.py": {
+      "sha256": "98ecef7e862e8d27a45e019b5c4ad158d40fac72ff25d9066f5a162556de93c7",
+      "bytes": 6215
     }
   }
 }
