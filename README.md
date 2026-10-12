@@ -2,7 +2,7 @@
 
 Connect Codex or Claude Code to Docspeed's hosted document tools and install the companion `docspeed-documents` skill. Use your existing agent to extract fields, read documents, answer cited questions, compare document values, or build a reusable Docster workflow.
 
-This source-available repository contains client integration assets, not the Docspeed server or a local/offline document engine. [Public setup guide](https://api.docspeed.ai/agent-tools/) · [API documentation](https://api.docspeed.ai/docs) · [Recorded examples](https://api.docspeed.ai/agent-tools/#example)
+This MIT-licensed repository contains client integration assets, not the Docspeed server or a local/offline document engine. [Public setup guide](https://api.docspeed.ai/agent-tools/) · [API documentation](https://api.docspeed.ai/docs) · [Recorded examples](https://api.docspeed.ai/agent-tools/#example)
 
 ## Connect with an installed client
 
@@ -123,7 +123,7 @@ Keep document bytes out of the agent conversation. `files_upload` remains an opt
 - Manual Codex configuration: merge `config/codex.toml` into your chosen configuration and copy `skills/docspeed-documents/` into the chosen skill directory. Preserve other settings.
 - Optional Codex direct namespace mode: use `--codex-direct-mcp` with the project installer, or review `config/codex-direct-mcp.toml`. This is opt-in, preserves approval policy, and does not establish support or selection for every Codex version.
 - Local Claude Code plugin: with your key in the environment, start `claude --plugin-dir /absolute/path/to/this/repository`. Use this **or** the project installer to avoid duplicate registrations.
-- **Claude catalog checksum issue observed 12 October 2026:** the public catalog still pins the preceding ZIP checksum while the download URL serves the updated package. Catalog installation is not a validated route for this package until the checksum is reconciled. This repository and the direct setup commands above do not use that catalog.
+- The [Claude catalog](https://api.docspeed.ai/agent-tools/marketplace.json) now pins the matching ZIP checksum `8435e968cb9fec1de526d623f608fe54cc0de682a73cbdfe9b5a87545ac3a21b`, verified on 12 October 2026. This repository and the direct setup commands above do not use that catalog.
 
 `plugin.json`/`mcp.json` also provide portable Agent Plugins metadata. Compatible host support and directory submission are separate. The [official MCP Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/ai.docspeed%2Fdocspeed/versions/0.1.0) describes the hosted server; a listing does not install or enable it in your agent.
 
@@ -144,8 +144,8 @@ Read [How to check document answers for completeness](docs/document-answer-compl
 - `.claude-plugin/plugin.json`, `plugin.json`: plugin manifests.
 - `evals/`, `scripts/eval_selection.py`: optional metadata-selection evaluation. Running it invokes your installed model client and can consume its usage; it does not measure live document quality or automatic skill discovery.
 
-The runtime/configuration/skill assets are exact copies of the published ZIP identified in `PROVENANCE.json`. This standalone README replaces the ZIP's monorepo-oriented maintenance instructions. `MANIFEST.json` records the intended public file set and hashes. No server code, account credentials, customer documents or private execution records are included.
+The client configuration, skill and installer assets are exact copies of the published ZIP identified in `PROVENANCE.json`; the Claude catalog is copied separately from its published URL. This standalone README retains the public repository's direct setup and launch instructions, with licensing and checksum updates; it is not a copy of the ZIP's monorepo-oriented README. `PROVENANCE.json` identifies both README sources and their hashes, and `MANIFEST.json` records the public file set and current hashes. No server code, account credentials, customer documents or private execution records are included.
 
-## License status
+## License scope
 
-This source-available repository does not declare an open-source license. The source package contains no LICENSE file or manifest license field. Do not infer an open-source license from visibility or from third-party dependencies; see `LICENSE_STATUS.md`. A maintainer must select a license before describing the package as open source. Public availability does not imply a license grant.
+The companion integration package is licensed under the [MIT License](LICENSE). This grant covers the distributed installer, skill, helper, manifests and package documentation. It does not license the private Docspeed core, hosted API/MCP/Docster implementation, customer documents or service access. Hosted usage remains subject to the account's terms, balance and quotas. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the scope.

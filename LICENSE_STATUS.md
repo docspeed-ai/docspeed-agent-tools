@@ -1,7 +1,17 @@
-# License status
+# Companion distribution license
 
-The published Docspeed integration ZIP inspected on 2026-10-11 contains no LICENSE file, and neither plugin manifest declares a license. No root LICENSE or NOTICE was found in the source repository inspected for this preparation.
+The owner approved the MIT License for the Docspeed companion integration package
+on October 12, 2026. The canonical grant is `integrations/agent-tools/LICENSE` in
+the source repository and `LICENSE` at the root of each distributed companion or
+review package. The package builders include that exact license.
 
-This distribution is source-available. No new license grant is supplied by this repository. The owner must choose and approve the intended distribution license or other terms before this is represented as an open-source package. Public availability is not itself a license choice.
+This grant covers the distributed installer, skill, upload helper, manifests,
+package documentation and original packaged artwork. It does not license the
+private Docspeed core, hosted API/MCP/Docster implementation, customer documents
+or service access. No private core source is included. Hosted processing remains
+subject to account terms, balance and quotas; this is not a free-service grant.
 
-The optional Python 3.10 dependency `tomli` is declared in `requirements.txt` but is not vendored. Its own license applies separately; it does not determine the license for these Docspeed assets.
+The public companion repository must receive the LICENSE with the approved
+package. This local artifact does not establish that publication has happened or
+that GitHub has refreshed its license detection. OAuth review packages retain
+their separate deployment, client-canary and directory-review gates.

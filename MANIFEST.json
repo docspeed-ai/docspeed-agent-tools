@@ -3,6 +3,10 @@
   "artifact": "docspeed-agent-tools-public-repository",
   "manifest_excludes_itself": true,
   "files": {
+    ".claude-plugin/marketplace.json": {
+      "sha256": "638edcd8f2c4cdf8efdd44f37c090993d9b9d2466b55382dc92a1f2b7ee49ae3",
+      "bytes": 474
+    },
     ".claude-plugin/plugin.json": {
       "sha256": "75fea394bfcb78263f4e6e4af3c46bc84bb3b79e3739dfaaefa3d528594e6a9e",
       "bytes": 285
@@ -15,17 +19,24 @@
       "sha256": "54c1aa65d620a26bc056df8c20379a44661f71ae938525fc6b924d4875a87eed",
       "bytes": 208
     },
+    "LICENSE": {
+      "sha256": "88fd61687d312f9ba08fc781629c35c5e96331c7e84141d95c3320b06ea78b39",
+      "bytes": 1090
+    },
     "LICENSE_STATUS.md": {
-      "sha256": "dc2642632f3ba72cb8f8465c7a6c7d328dcf7ff3bc04b9f62fadec533518ea38",
-      "bytes": 727
+      "sha256": "f1d4659970435839ffdf4ccb57d37fedf6f7395e337e0ce2ebe8fe3e8a01989f",
+      "bytes": 1046
     },
     "PROVENANCE.json": {
-      "sha256": "83a26509569110e142d3467b1b348e9ae373790b34a155be98d3435c6d55cc44",
-      "bytes": 6638
+      "sha256": "65d7d1be91894bb8123244339c81d4032c6659602f34d1ecf40206e8304fcf83",
+      "bytes": 5653
     },
     "README.md": {
-      "sha256": "5ca41638618d5cd07ee9b0c43ec4388fdeb7599ce6c610250c5ca0e7360bc1df",
-      "bytes": 11907
+      "sha256": "d66f30b2ba33ab7332478366f40cb3faee4c3b76afeddd554f37eb5867545948",
+      "bytes": 12135,
+      "source_kind": "adapted_public_repository_readme",
+      "provenance_key": "adapted_public_files.README.md",
+      "canonical_zip_readme_is_different": true
     },
     "config/codex-direct-mcp.toml": {
       "sha256": "869f5442cc5f2c6bd7930012d831d6dddf853ce8f1d6ea01aea8b7161127af31",
