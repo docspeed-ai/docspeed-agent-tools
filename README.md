@@ -125,7 +125,7 @@ Keep document bytes out of the agent conversation. `files_upload` remains an opt
 - Local Claude Code plugin: with your key in the environment, start `claude --plugin-dir /absolute/path/to/this/repository`. Use this **or** the project installer to avoid duplicate registrations.
 - The [Claude catalog](https://api.docspeed.ai/agent-tools/marketplace.json) now pins the matching ZIP checksum `8435e968cb9fec1de526d623f608fe54cc0de682a73cbdfe9b5a87545ac3a21b`, verified on 12 October 2026. This repository and the direct setup commands above do not use that catalog.
 
-`plugin.json`/`mcp.json` also provide portable Agent Plugins metadata. Compatible host support and directory submission are separate. The [official MCP Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/ai.docspeed%2Fdocspeed/versions/0.1.0) describes the hosted server; a listing does not install or enable it in your agent.
+`plugin.json`/`mcp.json` also provide portable Agent Plugins metadata. Compatible host support and directory submission are separate. The [official MCP Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/ai.docspeed%2Fdocspeed/versions/0.1.0) describes the hosted server; a listing does not install or enable it in your agent. See also the [Glama directory listing](https://glama.ai/mcp/connectors/ai.docspeed/docspeed).
 
 ## Privacy, cost, and result boundaries
 

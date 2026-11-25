@@ -126,9 +126,9 @@
       "source_path": "README.md",
       "source_sha256": "5ca41638618d5cd07ee9b0c43ec4388fdeb7599ce6c610250c5ca0e7360bc1df",
       "source_bytes": 11907,
-      "sha256": "d66f30b2ba33ab7332478366f40cb3faee4c3b76afeddd554f37eb5867545948",
-      "bytes": 12135,
-      "transformation": "Retain public README direct install, hidden key entry, client launch and approval instructions; update companion-only MIT licensing, corrected catalog/ZIP checksum and accurate provenance description. Not an exact ZIP README export."
+      "sha256": "e16112203833bea4dde22fdd5c59f59bbb2d6539e3131e6f6a14ae7747100e4e",
+      "bytes": 12229,
+      "transformation": "Retain public README direct install, hidden key entry, client launch and approval instructions; update companion-only MIT licensing, corrected catalog/ZIP checksum and accurate provenance description. Not an exact ZIP README export. Add a plain Glama directory backlink on 25 November 2026; no authentication, availability or validation claim is added."
     }
   }
 }

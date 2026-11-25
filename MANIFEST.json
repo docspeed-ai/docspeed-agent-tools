@@ -28,12 +28,12 @@
       "bytes": 1046
     },
     "PROVENANCE.json": {
-      "sha256": "65d7d1be91894bb8123244339c81d4032c6659602f34d1ecf40206e8304fcf83",
-      "bytes": 5653
+      "sha256": "f28a86fcd8ea76728d334fceed21fbf23edb97123df14ba200948c7c44ce581b",
+      "bytes": 5773
     },
     "README.md": {
-      "sha256": "d66f30b2ba33ab7332478366f40cb3faee4c3b76afeddd554f37eb5867545948",
-      "bytes": 12135,
+      "sha256": "e16112203833bea4dde22fdd5c59f59bbb2d6539e3131e6f6a14ae7747100e4e",
+      "bytes": 12229,
       "source_kind": "adapted_public_repository_readme",
       "provenance_key": "adapted_public_files.README.md",
       "canonical_zip_readme_is_different": true
